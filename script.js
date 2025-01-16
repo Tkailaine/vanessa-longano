@@ -212,6 +212,15 @@ const testimonials = [
       "A Dra. Vanessa é uma excelente advogada! Além de ser super profissional, confiável, sempre disponível a  esclarecer todas as nossas dúvidas. Nos deixa super a vontade quando vamos ao escritório. Seu carisma e prestatividade são sua marca registrada Obrigado por tudo e por tanto.",
   },
   {
+    name: "Cristiane Miranda",
+    position: '',
+    photo:
+      'imagens/cristiane-miranda.jpeg',
+    text:
+      " Meu direitos, por duas vezes  não seriam garantidos se não fosse o olhar holístico da Dra. Vanessa Arruda Longano, gratidão pela competência e todo o carinho pelos serviços prestados, profissional confiável atenciosa e ética eis seu grande diferencial.",
+  },
+
+  {
     name: "Lucas de Souza Gomes",
     position: '',
     photo:
