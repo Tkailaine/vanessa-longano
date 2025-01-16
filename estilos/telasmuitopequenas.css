@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.logo img{
+    width: 150px;
+}
+
+.txt-impacto{
+    width: 90%;
+    margin: auto;
+  }
+
+.txt-impacto h1{
+    font-size: 1.2em;
+  }
+  
+  .txt-impacto p {
+   font-size: 1em;
+  }
+
+  
+  .txt-cv p{
+    width: 300px;
+    margin: auto; 
+  }
+  
+.formacoes{
+  font-size: 1em;
+}
+
+.formacoes ul{
+  line-height: 1.8em;
+}
+
+.formacoes li{
+  margin-top: 10px;
+}
+  
+  .premios{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 520px;
+    text-align: center;
+  }
+  
+  .premios p{
+    width: 90%;
+    margin: auto;
+  }
+
+

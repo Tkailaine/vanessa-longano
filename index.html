@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VL Advocacia & Consultoria</title>
+    <link rel="stylesheet" href="estilos/styles.css" media="all">
+    <link rel="stylesheet" href="estilos/telasmuitopequenas.css" media="screen and (max-width:480px)">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width:768px) and (max-width:991px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width:992px) and (max-width:1199px)">
+    <link rel="stylesheet" href="estilos/tv.css" media="screen and (min-width:1200px)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="#home">
+        <div class="logo"><img src="imagens/logo.png" alt="VL Advocacia & Consultoria "></div>
+      </a>
+      <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="menu" id="menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#areas-atuacao">Áreas de Atuação</a></li>
+          <li style="display: none;"><a href="#escritorio">Escritório</a></li>
+          <li><a href="#cv-advogado">Sobre</a></li>
+          <li><a href="#premios">Relatos</a></li>
+         
+        </ul>
+        <button class="close-btn" id="closeMenu">&times;</button>
+      </nav>
+      <a href="https://wa.link/eaec5y" target="_blank"><button class="btn-whatsapp">Nos contate</button></a>
+    </div>
+  </header>
+  <main>
+
+    <div class="social-buttons">
+      <!-- Instagram Button -->
+      <a href="https://www.instagram.com/vanessa_longano/?utm_source=ig_web_button_share_sheet" target="_blank" class="social-button instagram-button" aria-label="Follow us on Instagram">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      </a>
+    
+      <!-- WhatsApp Button -->
+      <a href="https://wa.link/eaec5y" target="_blank" class="social-button whatsapp-button" aria-label="Contact us on WhatsApp">
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp">
+      </a>
+    
+      <!-- LinkedIn Button -->
+      <a href="https://www.linkedin.com/in/vanessalongano-29a33884/" target="_blank" class="social-button linkedin-button" aria-label="Connect with us on LinkedIn">
+        <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn">
+      </a>
+    </div>
+    
+
+    <section class="bandeira" id="home">
+     <div class="txt-impacto">
+      <h1 class="surge-left">Advocacia Humanizada e Sistêmica para Soluções Construtivas e Eficazes</h1>
+      <p  class="surge-right">Especialista em Direito Civil, Família, Empresarial, Trabalhista e Previdenciário</p>
+      <a href="https://wa.link/eaec5y" target="_blank"><button class="btn-wpp surge-left">Nos contate</button></a>
+     </div>
+       
+    
+    </section>
+
+
+    <section class="atuacao">
+       
+        <div class="outras-areas" id="areas-atuacao">
+          <h1 class="surge-bottom">ÁREAS DE ATUAÇÃO</h1>
+          <section class="areas-atuacao" >
+            
+            <div class="area-card surge-left" id="area1">
+              <h3>Civil</h3>
+              <p class="mini-resumo">
+                Ramo do direito que regula as relações privadas entre indivíduos, abrangendo contratos, família, obrigações e bens.
+                </p>
+              <button class="btn-expand" onclick="toggleArea('area1')">Saber Mais</button>
+              <div class="detalhes">
+                <p>O Direito Civil é o conjunto de normas que disciplina as relações jurídicas entre pessoas físicas e jurídicas, garantindo direitos e obrigações no âmbito privado. Ele abrange temas como contratos, sucessões, responsabilidade civil e direitos de propriedade.</p>
+                <button class="btn-collapse" onclick="toggleArea('area1')">Exibir Menos</button>
+              </div>
+            </div>
+
+
+            <div class="area-card surge-right" id="area2">
+              <h3>Empresarial</h3>
+              <p class="mini-resumo">Regula as atividades econômicas organizadas, abrangendo empresas, contratos e obrigações empresariais.
+              </p>
+              <button class="btn-expand" onclick="toggleArea('area2')">Saber Mais</button>
+              <div class="detalhes">
+                <p>O Direito Empresarial é o ramo jurídico que disciplina a atividade econômica organizada, abrangendo sociedades empresariais, títulos de crédito, falências e contratos mercantis.</p>
+                <button class="btn-collapse" onclick="toggleArea('area2')">Exibir Menos</button>
+              </div>
+            </div>
+          
+            <div class="area-card surge-left" id="area3">
+              <h3>Familiar</h3>
+              <p class="mini-resumo">Regula as relações jurídicas envolvendo casamento, divórcio, filiação, guarda e questões relacionadas à família.</p>
+              <button class="btn-expand" onclick="toggleArea('area3')">Saber Mais</button>
+              <div class="detalhes">
+                <p>O Direito Familiar trata das normas que disciplinam as relações familiares, como união estável, separação, adoção e direitos dos filhos, promovendo proteção e equilíbrio nos laços familiares.</p>
+                <button class="btn-collapse" onclick="toggleArea('area3')">Exibir Menos</button>
+              </div>
+            </div>
+
+            <div class="area-card surge-right" id="area4">
+              <h3>Trabalho</h3>
+              <p class="mini-resumo">Regula as relações entre empregadores e empregados, assegurando direitos e deveres trabalhistas.</p>
+              <button class="btn-expand" onclick="toggleArea('area4')">Saber Mais</button>
+              <div class="detalhes">
+                <p>O Direito do Trabalho é o conjunto de normas que disciplina as relações entre trabalhadores e empregadores, abrangendo temas como jornada, salários, segurança e estabilidade no emprego.</p>
+                <button class="btn-collapse" onclick="toggleArea('area4')">Exibir Menos</button>
+              </div>
+            </div>
+
+
+            <div class="area-card surge-left" id="area5">
+              <h3>Previdenciário</h3>
+              <p class="mini-resumo">Regula os direitos sociais relacionados à seguridade, como aposentadorias e benefícios do INSS.</p>
+              <button class="btn-expand" onclick="toggleArea('area5')">Saber Mais</button>
+              <div class="detalhes">
+                <p>O Direito Previdenciário trata das normas que garantem a proteção social, abordando benefícios como aposentadoria, pensões, auxílio-doença e assistência para segurados e dependentes.</p>
+                <button class="btn-collapse" onclick="toggleArea('area5')">Exibir Menos</button>
+              </div>
+            </div>
+            
+          </section>
+
+          <a href="https://wa.link/eaec5y" target="_blank"><button class="btn-chamada surge-bottom">Nos Contate →</button></a>
+    </section>
+
+   
+
+   
+    <section class="cv-advogado" id="cv-advogado">
+      <div class="txt-cv">
+        <div class="textos-originais">
+          <p class="surge-right">Com vasta experiência e formação acadêmica, Vanessa Arruda Longano lidera um escritório que prioriza uma abordagem humanizada e sistêmica, valorizando a resolução de conflitos de forma construtiva e equilibrada.</p>
+    
+          <p class="surge-right">Ex-presidente do Conselho Municipal dos Direitos da Mulher em Ibiúna e presidente da Comissão Especial de Coaching Jurídico da 144ª OAB/SP, Vanessa também é autora de artigos acadêmicos sobre Alienação Parental e Holding Familiar.</p>
+    
+          <h1 class="surge-right">Destaque</h1>
+          <ul>
+            <li class="surge-left">Ex-presidente do Conselho Municipal dos Direitos da Mulher de Ibiúna</li>
+            <li class="surge-right">Presidente da Comissão Especial de Coaching Jurídico da 144ª OAB/SP</li>
+            <li class="surge-left">Especialista em práticas extrajudiciais e consultoria preventiva.</li>
+          </ul>
+        </div>
+    
+        <div class="formacoes hidden" style="display: none;">
+          <h2>Formações Acadêmicas</h2>
+          <ul>
+            <li>Direito na FAC São Roque</li>
+            <li>Pós Graduada em direito do trabalho na Damásio</li>
+            <li>MBA em direito do trabalho, acidentário e previdenciário na Legale</li>
+            <li>Pós Graduação em Advocacia Extrajudicial na Legale</li>
+            <li>Pós Graduação em Direito Previdenciário da Ebradi
+            </li>
+            <li>Formação em Coaching pelo Instituto Brasileiro do Coaching</li>
+          </ul>  
+          
+      
+          
+        </div>
+
+      
+    <!-- Artigos -->
+    <div class="artigos hidden" style="display: none;">
+      <h2>Artigos Escritos</h2>
+      <ul>
+            <li><strong>Holding Familiar Como Uma Nova Forma de Planejamento Sucessório</strong> - Jusbrasil · 18 de dez de 2020
+             </li>
+             <li><strong>A Alienação Parental Nos Casos de Separações Judiciais</strong> - Revista NPI/FMR</li>
+             <li><strong>Formas de Alienação Parental</strong> - Revista NPI/FMR</li>
+          </ul>
+    </div>
+
+    <!-- Botões -->
+    <button id="toggle-button">Exibir Formações</button>
+    <button id="exibir-artigos" style="display: none;">Exibir Artigos</button>
+  </div>
+    </section>
+    
+
+    
+    <section class="premios surge-left" id="premios">
+      <div class="selo"></div>
+      <p>"A melhor em atendimento, qualidade de serviço, confiabilidade e estrutura"</p>
+      <p>Premiada 2 anos consecutivos no Top of Mind Brazil</p>
+    </section>
+
+
+    <div class="testimonial-container surge-right" id="relatos-clientes">
+      <div class="progress-bar"></div>
+      <div class="fas fa-quote-right fa-quote"></div>
+      <div class="fas fa-quote-left fa-quote"></div>
+      <p class="testimonial">
+        Meu direitos, por duas vezes  não seriam garantidos se não fosse o olhar holístico da Dra. Vanessa Arruda Longano, gratidão pela competência e todo o carinho pelos serviços prestados, profissional confiável atenciosa e ética eis seu grande diferencial.
+      </p>
+      <div class="user">
+        <img
+          src="imagens/cristiane-miranda.jpeg"
+          alt="user"
+          class="user-image"
+        />
+        <div class="user-details">
+          <h4 class="username">Cristiane Miranda</h4>
+          <p class="role"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+   
+      
+    
+  </main>
+
+  <footer> 
+    <!--SESSÃO DE INFORMAÇÕES EXTRAS E LINKS DE ACESSO-->
+   <div class="sessao-footer">
+    <div>
+           <div>
+            <img src="imagens/logo.png" style="width: 200px; margin-bottom:15px;" alt="Logo Vanessa Longano Advocacia e consultoria"><h3>Contato</h3>
+            <p style="margin-top: 10px;">Endereço: Rua Benjamin Constant, 397, centro - Ibiúna - SP, 18150-000 </p>
+            <p>Email: vanessalongano@hotmail.com<br> <a href="https://wa.link/eaec5y" target="_blank">Telefone: (15) 99619-7788</a></p>
+            <div>
+                <a href="https://wa.link/eaec5y" target="_blank"><input type="button" style="background-color: #A48138; color: white; width: 150px;
+                height: 35px; margin: 20px 0px;" value="Nos contate" class="btn-contato"></a>
+            </div>
+           </div> 
+    </div>
+
+    <div> 
+        <h3>Links Úteis</h3>
+            <ul class="links-uteis">
+                <li><a href="#home" target="_self">Página Inicial</a></li>
+                <li><a href="#areas-atuacao" target="_self">Áreas de Atuação</a></li>
+                <li style="display: none;"><a href="#escritorio" target="_self">Escritório</a></li> 
+                <li><a href="#cv-advogado" target="_self">Sobre</a></li>
+                <li><a href="#premios" target="_self">Relatos</a></li>
+                <li> <a href="creditos.txt" download="creditos.txt">Baixar Arquivo com Créditos</a></li>
+            </ul>
+    </div> 
+    <div class="contato-form">
+    <h3>Entre em Contato</h3>
+    <form
+       action="https://formsubmit.co/vanessalongano@hotmail.com"
+       method="POST"
+       class="form"
+       >
+       <label for="name">Nome</label>
+       <input type="text" name="name" id="name" required />
+       <label for="email">E-mail</label>
+       <input type="email" name="email" id="email" required />
+       <label for="message">Mensagem</label>
+       <textarea name="message" id="message" required></textarea>
+       <input type="hidden" name="_captcha" value="false" />
+       <input type="hidden" name="_next" value="http://127.0.0.1:5500/agradecimento/agradecimento.html">
+       
+       <button type="submit">Enviar</button>
+       </form>
+           </div>
+           </div>
+
+   </div>
+
+  
+
+   <span class="divisoria"></span>
+    <div style="text-align: center; color: white;">
+        &copy; 2025 Dra. Vanessa Longano. Todos os direitos reservados. Desenvolvido por <a href="https://wa.link/28ukpj" target="_blank" style="color: rgb(255, 217, 0);">PulseCode</a>.
+    </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

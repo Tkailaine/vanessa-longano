@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+.bandeira{
+   background-image: url(../imagens/banner.jpg);
+   background-attachment: fixed;
+}
+
+.txt-impacto {
+  position: absolute;
+  left: 7%;
+  top: 30%;
+  width: 450px;
+  height: 200px;
+  transform: translate(0%,0%);
+  text-align: left;
+ 
+}
+
+.txt-impacto h1{
+  font-size: 2em;
+  text-align: left;
+}
+
+.cv-advogado{
+  background-image: url(../imagens/banner2.jpg);
+}
+
+.txt-cv{
+  position: absolute;
+  left: 45%;
+  top: 20%;
+  transform: translate(0%,0%);
+}
+
+.txt-cv p{
+  font-family: var(--fonte-destaque);
+  width: 500px;
+  font-size: 1.2em;
+  line-height: 2em;
+  margin-bottom: 20px;
+}
+
+.txt-cv h1{
+  margin-top: 50px;
+}
+.txt-cv ul{
+  line-height: 2.5em;
+}
+
+.artigos{
+  width: 500px;
+}
+
+
+.premios{
+  margin-top: 50px;
+}
+
+.premios p{
+  font-size: 1.6em;
+}
+
+
+
+
+
+.footer{
+  height: 300px;
+}
+
+.sessao-footer{
+
+  justify-content: start;
+  flex-direction: row;
+  
+}
+
+.links-uteis > li{
+  font-size: 1.3em;
+  margin: 20px 0px;
+}
+
+.sessao-footer > div{
+margin-top: 25px;
+margin-right: 60px;
+}
+
+.form {
+    
+  width: 300px;
+  font-size: 1.125rem;
+}
+
+.links-uteis > li{
+  font-size: 1.3em;
+  margin: 20px 0px;
+}
+
+.sessao-footer > div{
+margin-top: 25px;
+margin-right: 60px;
+}
+
