@@ -207,7 +207,7 @@ const testimonials = [
     name: "Pesadão Burguer's",
     position: '',
     photo:
-      '../imagens/pesadao.jpg',
+      'imagens/pesadao.jpg',
     text:
       "A Dra. Vanessa é uma excelente advogada! Além de ser super profissional, confiável, sempre disponível a  esclarecer todas as nossas dúvidas. Nos deixa super a vontade quando vamos ao escritório. Seu carisma e prestatividade são sua marca registrada Obrigado por tudo e por tanto.",
   },
@@ -215,7 +215,7 @@ const testimonials = [
     name: "Lucas de Souza Gomes",
     position: '',
     photo:
-      '../imagens/sem-foto.jpg',
+      'imagens/sem-foto.jpg',
     text:
       "Super indico a Dr Longano. Ótima profissional,super atenciosa,prestativa e além de tudo muito educada. Indico com maior prazer!",
   },
@@ -223,7 +223,7 @@ const testimonials = [
     name: "Fábio Fosschini Hert",
     position: '',
     photo:
-      '../imagens/fabio.jpeg',
+      'imagens/fabio.jpeg',
     text:
       "Contratar a Dra. Vanessa foi uma das melhores decisões que tomei. Ela não apenas me orientou com competência e clareza em um processo trabalhista delicado, mas também demonstrou uma empatia rara que me fez sentir acolhido em todas as etapas. O atendimento foi impecável, sempre atenta aos detalhes e pronta para responder minhas dúvidas. Hoje, mais do que minha advogada, considero-a uma grande amiga. Recomendo seus serviços de olhos fechados!",
   },
